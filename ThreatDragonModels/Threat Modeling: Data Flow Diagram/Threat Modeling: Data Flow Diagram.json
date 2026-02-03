@@ -297,7 +297,7 @@
           {
             "position": {
               "x": 680,
-              "y": 325
+              "y": 255
             },
             "size": {
               "width": 180,
@@ -438,8 +438,8 @@
           },
           {
             "position": {
-              "x": 1149,
-              "y": 350
+              "x": 1144,
+              "y": 290
             },
             "size": {
               "width": 140,
@@ -748,8 +748,8 @@
             ],
             "id": "7c1634b1-0897-43a8-8290-8866d9f6357b",
             "source": {
-              "x": 570,
-              "y": 330
+              "x": 580,
+              "y": 230
             },
             "target": {
               "x": 580,
@@ -757,89 +757,56 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 490
+                "x": 540,
+                "y": 360
               },
               {
-                "x": 550,
-                "y": 590
+                "x": 520,
+                "y": 460
+              },
+              {
+                "x": 520,
+                "y": 560
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "4e427c15-0ed2-4b3b-ad88-aca08148a207",
+            "source": {
+              "x": 1060,
+              "y": 250
+            },
+            "target": {
+              "x": 1012,
+              "y": 732
+            },
+            "vertices": [
+              {
+                "x": 982,
+                "y": 400
+              },
+              {
+                "x": 982,
+                "y": 582
               }
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "zIndex": 11
           }
         ]
       }
